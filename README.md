@@ -29,7 +29,7 @@ Require and instantiate a client:
 
 ```
   // fetch metadata about account
-  client.whoAmI().then(console.log);
+  client.whoami().then(console.log);
 
   // fetch account credits
   client.credits().then(console.log);
@@ -92,7 +92,7 @@ Full options for creation of PrintJobs are available in the [API documentation](
     title: "Printing example 2",
     filename: "./test/examples/label.pdf"
   };
-  client.createPrintJobFromPDF().then(...);
+  client.createPrintJobFromPdf().then(...);
 
 
   // Create a print job from a local raw print file
