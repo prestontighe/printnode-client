@@ -1,4 +1,5 @@
 # PrintNode-NodeJS
+[![npm](https://img.shields.io/npm/v/printnode-client.svg)](https://www.npmjs.com/package/printnode-client)
 
 Cloud Printing wrapper for the [PrintNode](https://www.printnode.com) API.
 
